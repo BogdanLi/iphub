@@ -2,7 +2,9 @@
     <header class="bg-cblack text-white py-4">
         <nav class="container mx-auto lg:px-8 flex justify-between">
             <div>
-                <img src="/assets/imgs/logo.svg" alt="">
+                <NuxtLink to="/">
+                    <img src="/assets/imgs/logo.svg" alt="">
+                </NuxtLink>
             </div>
             <div class="flex gap-4">
                 <p>+7 (888) 888 88 88</p>

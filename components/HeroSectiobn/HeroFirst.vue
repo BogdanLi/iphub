@@ -15,14 +15,16 @@
             <p class="text-cgray">Индивидуальные правовые решения для защиты и охраны ваших нематериальных активов в России
                 и за рубежом</p>
             <div class="flex gap-2 items-center">
-                <button class="relative big-btn bg-cred py-4 px-8 rounded-[50%] group">Получить индивидуальную <br> консультацию
-                <img class="absolute -top-2 left-0 opacity-0 transition-all duration-150 group-hover:opacity-100" src="/assets/imgs/hover.svg" alt=""></button>
-                <button class="animate-arrow-btn-right border border-cred text-cred px-6 py-2 rounded-[50%] relative">Все услуги
+                <button class="relative big-btn bg-cred py-4 px-8 rounded-[50%] group">Получить индивидуальную <br>
+                    консультацию
+                    <img class="absolute -top-2 left-0 opacity-0 transition-all duration-150 group-hover:opacity-100"
+                        src="/assets/imgs/hover.svg" alt=""></button>
+                <button class="animate-arrow-btn-right border border-cred text-cred px-6 py-2 rounded-[50%] relative">Все
+                    услуги
                     <img class="absolute end-[-20px] top-[40%]" src="/assets/imgs/btn-arrow.svg" alt=""></button>
             </div>
         </div>
         <div class="flex justify-end">
             <img src="/assets/imgs/hero-img.png" alt="">
         </div>
-    </div>
-</template>
+    </div></template>

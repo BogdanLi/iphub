@@ -2,4 +2,5 @@
     <Hero />
     <SolutionSection />
     <QuizSection />
+    <FormSection />
 </template>

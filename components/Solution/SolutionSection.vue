@@ -3,7 +3,7 @@
 const solutionsArr = [
     {
         title: 'Регистрация товарного знака в Роспатенте',
-        des: 'Государственная регистрация торговых знаков в РФ и в мире'
+        des: 'Государственная регистрация торговых знаков в РФ и в мире',
     },
     {
         title: 'Изобретения и Полезные модели',
@@ -42,7 +42,8 @@ const solutionsArr = [
         </div>
         <Swiper :slides-per-view="5" :pagination="true">
             <SwiperSlide v-for="sol in solutionsArr">
-                <Solution :title="sol.title" :des="sol.des" />
+                <Solution :title="sol.title" :des="sol.des">
+                </Solution>
             </SwiperSlide>
         </Swiper>
     </div>

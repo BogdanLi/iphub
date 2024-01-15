@@ -1,9 +1,9 @@
 <template>
-    <div class="container mx-auto grid grid-cols-2">
-        <div>
+    <div class="container lg:mx-auto grid grid-cols-6 lg:grid-cols-2">
+        <div class="col-span-2 lg:col-span-1">
             <img src="/assets/imgs/hero-2.png" alt="">
         </div>
-        <div class="text-white space-y-6">
+        <div class="text-white space-y-6 col-span-4 lg:col-span-1">
             <h1 class="text-[38px] stix">Многолетний опыт</h1>
             <p class="text-cgray">Наша компания была создана в 2019 году специалистами, имеющими опыт работы в сфере
                 интеллектуальной собственности более 20 лет</p>

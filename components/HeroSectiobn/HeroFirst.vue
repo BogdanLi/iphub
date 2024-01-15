@@ -1,5 +1,5 @@
 <template>
-    <div class="grid grid-cols-2 container mx-auto">
+    <div class="flex justify-between container mx-auto">
         <div class="text-white flex flex-col justify-center gap-4">
             <p class="text-g">ВАШ IP ПАРТНЕР</p>
             <h1 class="text-[55px] relative stix w-min">
@@ -24,7 +24,8 @@
                     <img class="absolute end-[-20px] top-[40%]" src="/assets/imgs/btn-arrow.svg" alt=""></button>
             </div>
         </div>
-        <div class="flex justify-end">
-            <img src="/assets/imgs/hero-img.png" alt="">
+        <div class="flex justify-end w-10/12 lg:w-auto">
+            <img class="" src="/assets/imgs/hero-img.png" alt="">
         </div>
-    </div></template>
+    </div>
+</template>

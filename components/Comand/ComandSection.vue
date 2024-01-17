@@ -14,9 +14,12 @@ const cards = [
     { name: 'Пахоменко Алина Аликовна', des: 'Адвокат', link: alina }
 ]
 
+const showModal = ref(false)
+
 </script>
 
 <template>
+    <ComandModal v-if="showModal" :name="name" :position="des" @closeModal="showModal = false" />
     <div class="py-16">
         <div class="container lg:mx-auto lg:px-8">
             <div class="w-1/2">
@@ -29,9 +32,14 @@ const cards = [
         <div>
             <Swiper :slides-per-view="5">
                 <SwiperSlide v-for="card in cards">
-                    <ComandCard :name="card.name" :des="card.des" :img="card.link" />
+                    <ComandCard :name="card.name" :des="card.des" :img="card.link" @closeModal="showModal = true" />
                 </SwiperSlide>
             </Swiper>
+            <!-- <div class="flex gap-[0px]">
+                <div class="p-0" v-for="card in cards">
+                    <ComandCard :name="card.name" :des="card.des" :img="card.link" />
+                </div>
+            </div> -->
         </div>
     </div>
 </template>

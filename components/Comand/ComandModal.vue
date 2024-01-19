@@ -1,6 +1,5 @@
 <script setup>
 
-defineProps(['name', 'position'])
 const emit = defineEmits(['closeModal'])
 
 </script>
@@ -8,12 +7,13 @@ const emit = defineEmits(['closeModal'])
 <template>
     <div class="w-screen h-screen fixed z-50 bg-indigo top-0 left-0 bg-black/50 flex justify-center items-center"
         @click="$emit('closeModal')">
-        <div class="bg-white grid grid-cols-3 w-2/3 relative rounded-lg">
-            <img class="cursor-pointer absolute top-4 end-4" src="@/assets/imgs/closeModal.svg" alt="" @click="$emit('closeModal')">
-            <img class="w-full col-span-1" src="@/assets/imgs/comand/lidiya.png" alt="">
+        <div class="bg-white grid grid-cols-3 w-2/3 relative rounded-lg overflow-hidden">
+            <img class="cursor-pointer absolute top-4 end-4" src="@/assets/imgs/closeModal.svg" alt=""
+                @click="$emit('closeModal')">
+            <img class="w-full col-span-1" src="@/assets/imgs/comand/modal.png" alt="">
             <div class="col-span-2 px-4 text-cgray flex flex-col justify-center mb-4">
-                <h1 class="text-[24px] text-black">{{ name }}</h1>
-                <h2>{{ position }}</h2>
+                <h1 class="text-[24px] text-black">Раймм Лидия Вячеславовна</h1>
+                <h2>Генеральный директор</h2>
                 <div class="mt-4 space-y-2">
                     <p>Создаёт тихое право сильных брендов. Строит импакт-компанию и развивает команду, которая выбрала
                         сферу

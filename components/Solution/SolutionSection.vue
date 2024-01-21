@@ -53,7 +53,7 @@ const solutionsArr = [
             <button class="animate-arrow-btn-right border border-cred text-cred px-6 py-2 rounded-[50%] relative">Все услуги
                 <img class="absolute end-[-20px] top-[40%]" src="/assets/imgs/btn-arrow.svg" alt=""></button>
         </div>
-        <Swiper class="md:!hidden" :modules="[SwiperNavigation]" :slides-per-view="1" :navigation="true">
+        <Swiper class="md:!hidden" :modules="[SwiperNavigation]" :slides-per-view="2" :navigation="true">
             <SwiperSlide v-for="sol in solutionsArr">
                 <Solution :title="sol.title" :des="sol.des" :link="sol.link">
                 </Solution>
@@ -65,7 +65,7 @@ const solutionsArr = [
                 </Solution>
             </SwiperSlide>
         </Swiper>
-        <Swiper class="!hidden lg:!block" :modules="[SwiperNavigation]" :slides-per-view="5" :navigation="true">
+        <Swiper class="!hidden lg:!block" :modules="[SwiperNavigation]" :slides-per-view="4" :navigation="true">
             <SwiperSlide v-for="sol in solutionsArr">
                 <Solution :title="sol.title" :des="sol.des" :link="sol.link">
                 </Solution>

@@ -30,12 +30,17 @@ const showModal = ref(false)
             </div>
         </div>
         <div>
-            <Swiper class="!hidden lg:!block" :slides-per-view="5">
+            <Swiper class="!hidden lg:!block" :slides-per-view="4">
                 <SwiperSlide v-for="card in cards">
                     <ComandCard :name="card.name" :des="card.des" :img="card.link" @closeModal="showModal = true" />
                 </SwiperSlide>
             </Swiper>
-            <Swiper class="lg:!hidden" :slides-per-view="3">
+            <Swiper class="!hidden md:!block lg:!hidden" :slides-per-view="3">
+                <SwiperSlide v-for="card in cards">
+                    <ComandCard :name="card.name" :des="card.des" :img="card.link" @closeModal="showModal = true" />
+                </SwiperSlide>
+            </Swiper>
+            <Swiper class="block md:!hidden" :slides-per-view="2">
                 <SwiperSlide v-for="card in cards">
                     <ComandCard :name="card.name" :des="card.des" :img="card.link" @closeModal="showModal = true" />
                 </SwiperSlide>

@@ -2,7 +2,7 @@
     <div class="bg-cred">
         <div class="container mx-auto px-8 py-16">
             <div class="flex justify-between items-center text-white">
-                <div class="w-1/2 space-y-4">
+                <div class="md:w-1/2 space-y-4">
                     <h1 class="text-[38px]">Оставьте заявку на консультацию и мы вам поможем!</h1>
                     <p>У нас есть решения для всех ваших потребностей в сфере защиты и регистрации интеллектуальной
                         собственности</p>
@@ -13,7 +13,7 @@
                     </button>
                 </div>
                 <div>
-                    <img src="/assets/imgs/formImg.svg" alt="">
+                    <img class="hidden md:block" src="/assets/imgs/formImg.svg" alt="">
                 </div>
             </div>
         </div>

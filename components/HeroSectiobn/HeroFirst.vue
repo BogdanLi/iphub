@@ -24,7 +24,7 @@
                     <img class="absolute end-[-20px] top-[40%]" src="/assets/imgs/btn-arrow.svg" alt=""></button>
             </div>
         </div>
-        <div class="flex justify-end w-10/12 lg:w-auto">
+        <div class="flex justify-end hidden md:block w-10/12 lg:w-auto">
             <img class="" src="/assets/imgs/hero-img.png" alt="">
         </div>
     </div>

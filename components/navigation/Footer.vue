@@ -6,21 +6,23 @@
                     <div class="">
                         <img class="w-64" src="/assets/imgs/logo.svg" alt="">
                     </div>
-                    <div class="w-1/2">
-                        <p class="text-cgray">Общество с ограниченной
-                            ответственностью «Центр интеллектуальной собственности и инноваций „АйПиХаб“»</p>
-                    </div>
-                    <div class="text-white w-1/5">
-                        <p>123317, г. Москва, Пресненская наб., д.
-                            8, стр. 1, эт. 3, п. 1, оф. 10</p>
-                        <div class="flex gap-4">
-                            <p><span class="text-cgray">ИНН:</span> 7703472433</p>
-                            <p><span class="text-cgray">КПП:</span> 770301001</p>
+                    <div class="flex flex-col md:flex-row justify-center items-center">
+                        <div class="md:w-1/2">
+                            <p class="text-cgray">Общество с ограниченной
+                                ответственностью «Центр интеллектуальной собственности и инноваций „АйПиХаб“»</p>
+                        </div>
+                        <div class="grid grid-cols-2 md:block text-white md:w-1/5">
+                            <p>123317, г. Москва, Пресненская наб., д.
+                                8, стр. 1, эт. 3, п. 1, оф. 10</p>
+                            <div class="flex flex-col md:flex-row gap-4">
+                                <p><span class="text-cgray">ИНН:</span> 7703472433</p>
+                                <p><span class="text-cgray">КПП:</span> 770301001</p>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <hr>
-                <div class="grid grid-cols-4">
+                <div class="flex justify-between">
                     <div class="text-white flex flex-col gap-4">
                         <h1 class="text-cgray text-[18px]">Навигация по сайту</h1>
                         <NuxtLink to="/services">Услуги</NuxtLink>
@@ -37,7 +39,7 @@
                         <a href="">Facebook</a>
                         <a href="">Instagram</a>
                     </div>
-                    <div class="text-white flex flex-col gap-4">
+                    <div class="hidden md:block text-white flex flex-col gap-4">
                         <h1 class="text-cgray text-[18px]">Как добраться:</h1>
                         <a href="">Схема проезда</a>
                     </div>

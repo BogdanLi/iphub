@@ -18,7 +18,7 @@ const pastForumes = [
 
 <template>
     <div class="py-16">
-        <div class="container lg:mx-auto lg:px-8">
+        <div class="container mx-auto lg:px-8">
             <div class="flex justify-between">
                 <h1 class="text-[24px]">Мы на форумах</h1>
                 <div class="text-gray space-x-4">

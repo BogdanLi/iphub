@@ -21,7 +21,7 @@ const showModal = ref(false)
 <template>
     <ComandModal v-if="showModal" :name="name" :position="des" @closeModal="showModal = false" />
     <div class="py-16">
-        <div class="container lg:mx-auto px-8">
+        <div class="container mx-auto px-8">
             <div class="w-1/2">
                 <h1 class="text-[38px] stix">Команда экспертов</h1>
                 <p class="text-cgray">Наша команда — эксперты в сфере IP. Мы берёмся за работу и доводим дело до конца,

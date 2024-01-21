@@ -14,9 +14,6 @@ const pastForumes = [
     { author: 'Рачеева Юлия Геннадьевна', position: 'Патентный поверенный РФ', place: 'WIPO SUMMER SCHOOL — 2021 RUSSIA', des: 'Летняя школа Всемирной организации интеллектуальной собственности', day: '28 июня - 9 июля', time: '15:30', img: gen }
 ]
 
-// const current = 
-
-
 </script>
 
 <template>

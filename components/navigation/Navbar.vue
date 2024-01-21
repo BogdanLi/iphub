@@ -1,3 +1,9 @@
+<script setup>
+
+const showSidebar = ref(true)
+
+</script>
+
 <template>
     <header class="bg-cblack text-white py-4">
         <nav class="container flex justify-between mx-auto lg:px-8">
@@ -15,7 +21,17 @@
                 <NuxtLink class="hover:text-cred" to="/cases">Кейсы</NuxtLink>
                 <NuxtLink class="hover:text-cred" to="/faq">FAQ</NuxtLink>
             </div>
-            <button class="lg:hidden"><img src="/assets/imgs/navbar/navbar-burger.svg" alt=""></button>
+            <button @click="showSidebar = true" class="lg:hidden"><img src="/assets/imgs/navbar/navbar-burger.svg" alt=""></button>
         </nav>
     </header>
+    <div :class="showSidebar ? 'z-50 opacity-100' : 'z-[-1] opacity-0'" @click="showSidebar = false" class="w-screen h-screen fixed z-50 bg-indigo top-0 left-0 bg-black/50 flex justify-start items-center transition-all">
+        <div class="w-1/2 flex transition-all duration-300" :class="showSidebar ? 'translate-x-0' : 'translate-x-[-100%]'">
+            <div class="h-screen bg-cgray w-1/3"></div>
+            <div class="h-screen bg-cblack w-2/3 text-white text-3xl flex flex-col justify-start pt-24 ps-24 gap-8">
+                <NuxtLink class="hover:text-cred" to="/services">Услуги</NuxtLink>
+                <NuxtLink class="hover:text-cred" to="/cases">Кейсы</NuxtLink>
+                <NuxtLink class="hover:text-cred" to="/faq">FAQ</NuxtLink>
+            </div>
+        </div>
+    </div>
 </template>

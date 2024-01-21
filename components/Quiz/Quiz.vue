@@ -7,7 +7,7 @@ const page = ref(2)
 </script>
 
 <template>
-    <div class="bg-cblack rounded-lg p-8 space-y-4 w-2/3">
+    <div class="bg-cblack rounded-lg p-8 space-y-4 lg:w-2/3">
         <div class="flex justify-between">
             <h1 class="text-white text-[24px]">С какой целью вы обращаетесь?</h1>
             <p class="text-white stix text-[36px]"><span class="text-cred">{{ page }}</span>/8</p>

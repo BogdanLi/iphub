@@ -65,7 +65,7 @@ const solutionsArr = [
                 </Solution>
             </SwiperSlide>
         </Swiper>
-        <Swiper  class="!hidden lg:!block" :modules="[SwiperNavigation]" :slides-per-view="5" :navigation="true">
+        <Swiper class="!hidden lg:!block" :modules="[SwiperNavigation]" :slides-per-view="5" :navigation="true">
             <SwiperSlide v-for="sol in solutionsArr">
                 <Solution :title="sol.title" :des="sol.des" :link="sol.link">
                 </Solution>

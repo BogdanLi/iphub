@@ -25,7 +25,14 @@ const cards = [
                 <button class="animate-arrow-btn-right border border-cred text-cred px-6 py-2 rounded-[50%] relative">Далее
                     <img class="absolute end-[-20px] top-[40%]" src="/assets/imgs/btn-arrow.svg" alt=""></button>
             </div>
-            <Swiper :modules="[SwiperNavigation]" :navigation="true" :slides-per-view="2"
+            <Swiper class="!hidden lg:!block" :modules="[SwiperNavigation]" :navigation="true" :slides-per-view="2"
+                :pagination="true">
+                <SwiperSlide class="me-4" v-for="card in cards">
+                    <RCase :title="card.title" :des="card.des" :img="card.link">
+                    </RCase>
+                </SwiperSlide>
+            </Swiper>
+            <Swiper class="lg:!hidden" :modules="[SwiperNavigation]" :navigation="true" :slides-per-view="1"
                 :pagination="true">
                 <SwiperSlide class="me-4" v-for="card in cards">
                     <RCase :title="card.title" :des="card.des" :img="card.link">

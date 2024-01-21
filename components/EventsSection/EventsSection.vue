@@ -21,7 +21,7 @@ const pastForumes = [
 
 <template>
     <div class="py-16">
-        <div class="container mx-auto px-8">
+        <div class="container lg:mx-auto lg:px-8">
             <div class="flex justify-between">
                 <h1 class="text-[24px]">Мы на форумах</h1>
                 <div class="text-gray space-x-4">
@@ -31,7 +31,8 @@ const pastForumes = [
             </div>
             <div>
                 <div v-for="f in (future ? futureForums : pastForumes)">
-                    <Event :name="f.author" :pos="f.position" :place="f.place" :des="f.des" :day="f.day" :time="f.time" :img="f.img" />
+                    <Event :name="f.author" :pos="f.position" :place="f.place" :des="f.des" :day="f.day" :time="f.time"
+                        :img="f.img" />
                 </div>
             </div>
         </div>

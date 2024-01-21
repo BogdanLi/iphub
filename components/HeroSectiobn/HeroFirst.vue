@@ -1,5 +1,5 @@
 <template>
-    <div class="flex justify-between container mx-auto">
+    <div class="flex justify-between container mx-auto my-16">
         <div class="text-white flex flex-col justify-center gap-4">
             <p class="text-g">ВАШ IP ПАРТНЕР</p>
             <h1 class="text-[55px] relative stix w-min">

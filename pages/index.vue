@@ -5,5 +5,4 @@
     <CasesSection />
     <ComandSection />
     <EventsSection />
-    <FormSection />
 </template>

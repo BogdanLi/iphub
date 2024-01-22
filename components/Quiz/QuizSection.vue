@@ -10,7 +10,7 @@
             </div>
             <div class="space-y-4">
                 <h1 class="text-white text-[24px]">Бонусы после прохождения</h1>
-                <div class="flex gap-8">
+                <div class="flex flex-col md:flex-row gap-8">
                     <div class="bg-cblack flex justify-center items-center p-4 w-[26rem] rounded-lg">
                         <img src="/assets/imgs/bonus.svg" alt="">
                         <p class="text-[18px] text-white">Название бонуса в одну или две строки</p>

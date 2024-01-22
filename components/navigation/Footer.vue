@@ -2,7 +2,7 @@
     <footer class="bg-cblack">
         <div class="container mx-auto py-16">
             <div class="px-8 space-y-12">
-                <div class="flex justify-between items-center gap-8">
+                <div class="flex flex-col sm:flex-row justify-between items-center gap-8">
                     <div class="">
                         <img class="w-64" src="/assets/imgs/logo.svg" alt="">
                     </div>

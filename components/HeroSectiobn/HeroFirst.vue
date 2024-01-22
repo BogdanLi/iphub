@@ -1,20 +1,20 @@
 <template>
     <div class="flex justify-between container mx-auto my-16">
-        <div class="text-white flex flex-col justify-center gap-4">
+        <div class="text-white flex flex-col items-center text-center md:justify-center gap-4">
             <p class="text-g">ВАШ IP ПАРТНЕР</p>
-            <h1 class="text-[55px] relative stix w-min">
+            <h1 class="text-[35px] sm:text-[55px] relative stix w-min">
                 <p class="relative w-min">
                     Интеллектуальная
-                    <img class="absolute top-5 left-[-0.8rem]" src="/assets/imgs/open.svg" alt="">
+                    <img class="absolute top-0 sm:top-5 left-[-0.8rem]" src="/assets/imgs/open.svg" alt="">
                 </p>
                 <p class="relative w-min italic">
                     собственность
-                    <img class="absolute -end-4 top-8" src="/assets/imgs/close.svg" alt="">
+                    <img class="absolute -end-4 bottom-0 sm:top-8" src="/assets/imgs/close.svg" alt="">
                 </p>
             </h1>
             <p class="text-cgray">Индивидуальные правовые решения для защиты и охраны ваших нематериальных активов в России
                 и за рубежом</p>
-            <div class="flex gap-2 items-center">
+            <div class="flex gap-2 items-center flex-col sm:flex-row">
                 <button class="relative big-btn bg-cred py-4 px-8 rounded-[50%] group">Получить индивидуальную <br>
                     консультацию
                     <img class="absolute -top-2 left-0 opacity-0 transition-all duration-150 group-hover:opacity-100"

@@ -12,7 +12,7 @@ const page = ref(2)
             <h1 class="text-white text-[24px]">С какой целью вы обращаетесь?</h1>
             <p class="text-white stix text-[36px]"><span class="text-cred">{{ page }}</span>/8</p>
         </div>
-        <div class="grid grid-cols-2 gap-4">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div v-for="item in quizItems">
                 <QuizItem :text="item" />
             </div>

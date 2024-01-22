@@ -1,5 +1,5 @@
 <template>
-    <div class="my-16 container lg:mx-auto grid md:grid-cols-6 lg:grid-cols-2">
+    <div class="my-16 container px-4 lg:mx-auto grid md:grid-cols-6 lg:grid-cols-2">
         <div class="hidden md:block md:col-span-2 lg:col-span-1">
             <img src="/assets/imgs/hero-2.png" alt="">
         </div>
@@ -7,7 +7,7 @@
             <h1 class="text-[38px] stix">Многолетний опыт</h1>
             <p class="text-cgray">Наша компания была создана в 2019 году специалистами, имеющими опыт работы в сфере
                 интеллектуальной собственности более 20 лет</p>
-            <div class="grid grid-cols-2 gap-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <ExpCard title=">300" des="Представления интересов в спорах по IP правам в год" />
                 <ExpCard title=">2500" des="Оказаний юридической помощи компаниям в год" />
                 <ExpCard title="1150" des="Завершённых дел по регистрации товарных знаков" />
@@ -19,7 +19,7 @@
             <p class="text-cgray">Мы и наши клиенты гордимся опытом, который подтверждается нашими результатами
                 от закрепления
                 прав заявителей до успешной защиты интересов</p>
-            <div class="grid grid-cols-2 gap-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div
                     class="bg-white hover:bg-opacity-[10%] transition-all duration-300 bg-opacity-[5%] flex justify-center items-center p-4">
                     <img src="/assets/imgs/partners/depot.svg" alt="">

@@ -2,8 +2,8 @@
     <div class="bg-cred">
         <div class="container mx-auto px-8 py-16">
             <div class="flex justify-between items-center text-white">
-                <div class="md:w-1/2 space-y-4">
-                    <h1 class="text-[38px]">Оставьте заявку на консультацию и мы вам поможем!</h1>
+                <div class="md:w-1/2 space-y-4 flex flex-col justify-center items-center">
+                    <h1 class="text-center sm:text-start text-[24px] sm:text-[38px] stix">Оставьте заявку на консультацию и мы вам поможем!</h1>
                     <p>У нас есть решения для всех ваших потребностей в сфере защиты и регистрации интеллектуальной
                         собственности</p>
                     <button class="relative bg-cblack py-4 px-8 rounded-[50%] group">Получить индивидуальную <br>

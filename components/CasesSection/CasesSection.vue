@@ -16,13 +16,13 @@ const cards = [
     <div class="bg-cblack py-16">
         <div class="container mx-auto px-8 space-y-6">
             <div class="flex justify-between items-center">
-                <div class="text-white w-1/2">
+                <div class="text-white md:w-1/2">
                     <h1 class="text-[38px] stix">Реализованные кейсы</h1>
                     <p class="text-cgray">Наши реальные истории о том, как мы помогали своим клиентам регистрировать
                         товарные знаки и оформлять
                         права на объекты интеллектуальной собственности</p>
                 </div>
-                <button class="animate-arrow-btn-right border border-cred text-cred px-6 py-2 rounded-[50%] relative">Далее
+                <button class="hidden md:block animate-arrow-btn-right border border-cred text-cred px-6 py-2 rounded-[50%] relative">Далее
                     <img class="absolute end-[-20px] top-[40%]" src="/assets/imgs/btn-arrow.svg" alt=""></button>
             </div>
             <Swiper class="!hidden lg:!block" :modules="[SwiperNavigation]" :navigation="true" :slides-per-view="2"

@@ -22,7 +22,7 @@ const showModal = ref(false)
     <ComandModal v-if="showModal" :name="name" :position="des" @closeModal="showModal = false" />
     <div class="py-16">
         <div class="container mx-auto px-8">
-            <div class="w-1/2">
+            <div class="md:w-1/2">
                 <h1 class="text-[38px] stix">Команда экспертов</h1>
                 <p class="text-cgray">Наша команда — эксперты в сфере IP. Мы берёмся за работу и доводим дело до конца,
                     потому что понимаем
@@ -40,7 +40,7 @@ const showModal = ref(false)
                     <ComandCard :name="card.name" :des="card.des" :img="card.link" @closeModal="showModal = true" />
                 </SwiperSlide>
             </Swiper>
-            <Swiper class="block md:!hidden" :slides-per-view="2">
+            <Swiper class="block md:!hidden" :slides-per-view="1">
                 <SwiperSlide v-for="card in cards">
                     <ComandCard :name="card.name" :des="card.des" :img="card.link" @closeModal="showModal = true" />
                 </SwiperSlide>
